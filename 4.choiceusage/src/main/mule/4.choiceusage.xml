@@ -14,9 +14,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 			<when expression='#[vars.CountryName == "UnitedStates"]'>
 				<logger level="INFO" doc:name="Logger" doc:id="4c3aadad-55a1-49e9-8c99-b508ea8f1b0e" message="**This is UnitedStates route**"/>
 			</when>
-			<when >
-				<logger level="INFO" doc:name="Logger" doc:id="94de54ca-8270-471e-8049-3510c6a77727" />
-			</when>
 			<otherwise >
 				<logger level="INFO" doc:name="Logger" doc:id="c69d9a0d-13ae-4e3b-9c27-230292540d60" message="This is defult route"/>
 			</otherwise>
